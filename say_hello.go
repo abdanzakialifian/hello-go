@@ -1,5 +1,5 @@
 package hello_go
 
-func SayHello() string {
-	return "Hello Golang With New Version"
+func SayHello(value string) string {
+	return "Hello " + value
 }
